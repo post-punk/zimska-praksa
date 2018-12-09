@@ -262,6 +262,12 @@ ul {
 		padding-bottom: 25px;
 }
 
+.tab-links p {
+	vertical-align: bottom;
+	font-family: "Novecento";
+    font-weight: normal;
+    color: #8a8888;
+	}
 
 .tablinks{
 	width: 25%;
