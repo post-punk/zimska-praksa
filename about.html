@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 	<head>
 		<link rel="stylesheet" href="page.css" />
+		<link rel="stylesheet" href="fonts.css" />
 	</head>
 	<body>
 		<div class="page-frame">
@@ -33,14 +34,14 @@
 		<div class="page-frame" style="margin-top: 35px">
 			<img style="float: left; margin-right: 25px; " src="images/dude.jpg">
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eu erat lacus, vel congue mauris. Fusce velit justo, faucibus eu sagittis ac, gravida quis tortor. Suspendisse non urna mi, quis tincidunt eros. Nullam tellus turpis, fringilla sit amet congue ut, luctus a nulla. Donec sit amet sapien neque, id ullamcorper diam. Nulla facilisi. Pellentesque pellentesque arcu a elit congue lacinia.
-					<br>
-					Nullam tellus turpis, fringilla sit amet congue ut, luctus a nulla. Donec sit amet sapien neque, id ullamcorper diam. Nulla facilisi. Pellentesque pellentesque arcu a elit congue lacinia. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eu erat lacus, vel congue mauris. Fusce velit justo, faucibus eu sagittis ac, gravida quis tortor. Suspendisse non urna mi, quis tincidunt eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+				</p>
+				<p>Nullam tellus turpis, fringilla sit amet congue ut, luctus a nulla. Donec sit amet sapien neque, id ullamcorper diam. Nulla facilisi. Pellentesque pellentesque arcu a elit congue lacinia. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eu erat lacus, vel congue mauris. Fusce velit justo, faucibus eu sagittis ac, gravida quis tortor. Suspendisse non urna mi, quis tincidunt eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 				</p>
 
 			<table id="content" style="clear: both; padding-top: 30px;">
 				<tr>
-					<th align="left">MISSION STATEMENT</th><br>
-					<th align="left">FUN FACTS</th>
+					<th align="left" id="titles">MISSION STATEMENT</th><br>
+					<th align="left" id="titles">FUN FACTS</th>
 				</tr>
 				<tr>
 					<td style=" padding-right: 35px">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eu erat lacus, vel congue mauris. Fusce velit justo, faucibus eu sagittis ac, gravida quis tortor. Suspendisse non urna mi, quis tincidunt eros. Nullam tellus turpis, fringilla sit amet congue ut, luctus a nulla. Donec sit amet sapien neque, id ullamcorper diam. Nulla facilisi. Pellentesque pellentesque arcu a elit congue lacinia.</td>
@@ -48,7 +49,7 @@
 				</tr>
 			</table>
 			<br>
-			<p class="services"><strong>SERVICES</strong></p>
+			<p class="services" id="titles">SERVICES</p>
 			<br>
 		</div>
 
@@ -56,20 +57,20 @@
 			<div class="page-frame">
 				<div class="tab">
 					<button class="tablinks" onclick="openContent(event, 'websites')" id="defaultOpen">
-						<img src="images/websites.svg"/>
-						<br>WEBSITES
+						<div style="font-weight: bold; font-family: Novecento;"><img src="images/websites.svg"/>
+						<br>WEBSITES</div>
 					</button>
 					<button class="tablinks" onclick="openContent(event, 'photography')">
-						<img src="images/photo.svg"/>
-						<br>PHOTOGRAPHY
+						<div><img src="images/photo.svg"/>
+						<br>PHOTOGRAPHY</div>
 					</button>
 					<button class="tablinks" onclick="openContent(event, 'seo')">
-						<img src="images/seo.svg"/>
-						<br>SEO
+						<div><img src="images/seo.svg"/>
+						<br>SEO</div>
 					</button>
 					<button class="tablinks" onclick="openContent(event, 'applications')">
-						<img src="images/apps.svg"/>
-						<br>APPLICATIONS
+						<div><img src="images/apps.svg"/>
+						<br>APPLICATIONS</div>
 					</button>
 				</div>
 			</div>
@@ -135,7 +136,7 @@
 		<div class="footer">
 			<div class="center">
 				<div class="copyright">
-					Copyright 2013 Display. All Rights Reserved.
+					COPYRIGHT 2013 DISPLAY. ALL RIGHTS RESERVED.
 				</div>
 				<span class="footer-menu">
 					<a class="button" href="home.html">HOME</a> / &nbsp

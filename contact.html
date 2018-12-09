@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 	<head>
 		<link rel="stylesheet" href="page.css" />
+		<link rel="stylesheet" href="fonts.css" />
 	</head>
 	<body>
 		<div class="page-frame">
@@ -36,7 +37,7 @@
 			<table>
 				<tr align="left">
 					<td rowspan="2" style="width: 60%">
-					<h1>CONTACT FORM</h1>
+					<h1 id="titles">CONTACT FORM</h1>
 					<p>Lorem ipsum dolor sit amet, orci et magna. Vel taciti feugiat, justo arcu suscipit cras, gravida arcu sed sed aenean nibh justo.</p>
 					<br>
 						<input type="text" name="name" placeholder="Name"></br>
@@ -46,7 +47,7 @@
 						<input type="submit" value="SEND MESSAGE">
 					</td>
 					<td>
-						<h1>CONTACT INFO</h1>
+						<h1 id="titles">CONTACT INFO</h1>
 						<p>Lorem ipsum dolor sit amet, orci et magna.
 					<br>Vel taciti feugiat, justo arcu suscipit cras.</p>
 						<p><strong>email:</strong>
@@ -56,11 +57,21 @@
 						<p>222 2nd Ave South<br>
 						Saskabush, SK     S7M 1T6</p>
 						<div>
-						<h1>STORE HOURS</h1>
-					<p>Monday - Thursday   <span style="float: right;">8 am - 5 pm</span><br>
-							 Friday              <span style="float: right;">8 am - 6 pm</span><br>
-							 Saturday            <span style="float: right;">9 am - 5 pm</span><br>
-							 Sunday &#38 Holidays <span style="float: right;">Closed</span></td> 
+						<h1 id="titles">STORE HOURS</h1>
+						  <div class="hours">
+							<div class="column">
+								<p>Monday - Thursday</br>
+									Friday<br>
+									Saturday<br>
+									Sunday</p>
+							</div>
+							<div class="column">
+								<p>8 am - 5 pm<br>
+								   8 am - 6 pm<br>
+								   9 am - 5 pm<br>
+								   Closed</p>
+							</div>
+						  </div>
 					 </div>
 				</tr>
 			</table>
@@ -80,7 +91,7 @@
 		<div class="footer">
 			<div class="center">
 				<div class="copyright">
-					Copyright 2013 Display. All Rights Reserved.
+					COPYRIGHT 2013 DISPLAY. ALL RIGHTS RESERVED.
 				</div>
 				<span class="footer-menu">
 					<a class="button" href="home.html">HOME</a> / &nbsp

@@ -30,10 +30,10 @@ body {
 
 .button {
 	font-family: "Novecento";
+	font-weight: normal;
 	text-decoration: none;
 	font-size: 18px;
 	color: rgb(115, 115, 115);
-	font-weight: bold;
 	line-height: 1;
 	margin-right: 10px;
 }
@@ -48,8 +48,8 @@ body {
 #about-text{
 	font-size: 24px;
 	font-family: "Novecento";
+	font-weight: normal;
 	color: rgb(255, 255, 255);
-	font-weight: bold;
 	line-height: 0.6;
 	display: table-cell;
 	vertical-align: middle;
@@ -59,10 +59,22 @@ body {
 	margin-top:10px
 }
 
-#content th, p, li {
+#content th, 
+#content li {
+	font-family: "Novecento";
+	font-weight: normal;	
+	color: #8a8888;
+}
+
+p, ul { 
 	font-family: "Helvetica";
 	color: #8a8888;
 }
+
+td, p, ul {
+	line-height: 1.5;
+}
+
 
 #content td {
 	font-family: "Helvetica";
@@ -72,6 +84,7 @@ body {
 
 .services {
 	font-family: "Novecento";
+	font-weight: normal;
 	color: #8a8888;
 }
 
@@ -100,6 +113,7 @@ ul {
 
 .footer-menu a {
 	font-family: "Novecento";
+	font-weight: normal;
 	color: #8a8888;
 	font-size: 12px;
 }
@@ -115,8 +129,8 @@ ul {
 	border:none; float: right;
 	margin-right: 16.6%;
 	font-family: "Novecento";
+	font-weight: normal;
 	padding: 10px 25px;
-	font-weight: bold;
 }
 
 .copyright {
@@ -124,6 +138,7 @@ ul {
 	margin: 0 0 0 16.6%;
 	padding: 5px 0px;
 	font-family: "Novecento";
+	font-weight: normal;
 	color: #8a8888;
 	font-size: 12px;
 }
@@ -134,9 +149,9 @@ ul {
 	margin: 2px 0 0 16.6%;
 	padding: 5px 0px;
 	font-family: "Novecento";
+	font-weight: normal;
 	text-decoration: none;
 	font-size: 18px;
-	font-weight: bold;
 	line-height: 1;
 }
 
@@ -146,21 +161,42 @@ ul {
 	height: 200px;
 }
 
-#contact-form table, th, td {
+#titles {
+	font-size: 20px;
+}
+
+#z` table, 
+#contact-form th, 
+#contact-form td {
 	  vertical-align: top;
 	  border-collapse: collapse;
 	}
 
-#contact-form th, td {
-	  padding: 40px;
+#contact-form h1 {
+	font-size: 20pt
+	color: #8a8888;
+    font-family: 'Novecento';
+    font-weight: normal;
+    vertical-align: top;
+}
+
+	
+#contact-form th, 
+#contact-form td {
+	  padding: 20px;
 	  text-align: left;    
 	  }
-#contact-form	p, h1, td {
+#contact-form p, 
+/* #contact-form h1,  */
+#contact-form td {
 	font-size: 10pt;
 	color: #8a8888;
-	font-family: Novecento;
+	font-family: 'Novecento';
+	font-weight: normal;
+	vertical-align: top;
 	}
-#contact-form	input, textarea {
+#contact-form input, 
+#contact-form textarea {
 	margin-bottom:10px;
 	width: 70%;
 	line-height: 1.8;
@@ -170,30 +206,24 @@ ul {
 	width: 120px; 
 	background-color: #2ecc71; 
 	color: white;
-	font-family: Novecento;
-	font-weight: bold
+	font-family: 'Novecento';
+	font-weight: normal;
 }
-	
-#contact-form    h1 {
-	font-weight: bold;
-	}
 
 #contact-form	p {
 	font-family: "Helvetica";
 	font-size: 12px;
 	font-weight: normal;
-
 	color: #8a8888;
-	}
+}
+
 #contact-form	th {
 	font-family: "Novecento";
+	font-weight: normal;
 	font-size: 12px;
 	color: #8a8888;
-	}
+}
 
-
-/* /* tab styles  */ */
-/* Style the tab */
 .tab {
     overflow: hidden;
     border: transparent;
@@ -232,10 +262,18 @@ ul {
 		padding-bottom: 25px;
 }
 
-.tabcontent p {
-}
 
 .tablinks{
 	width: 25%;
 	height: 200px
 }
+
+.column {
+    float: left;
+    width: 50%;
+
+}
+
+.hours:after {
+    display: table;
+    clear: both;
