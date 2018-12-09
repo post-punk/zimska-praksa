@@ -80,6 +80,7 @@ td, p, ul {
 	font-family: "Helvetica";
 	color: #8a8888;
 	padding-top:20px;
+	vertical-align: top;
 }
 
 .services {
